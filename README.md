@@ -39,11 +39,18 @@ The demo starts `debian:stable-slim`, installs `procps` in the container, and ru
 - `demo.sh`, `demo/inside.sh`, `Makefile`
 - `tests/run_tests.sh`
 - `screenshots/`
+- `.shellcheckrc`
 - `README.md` and `LICENSE` (MIT)
 
 ### Estimated setup time / 预计部署时间
 
 About 2 minutes. Copy the example config and run `bash run_all.sh --config config.conf`.
+
+### 预计交付时间 / Estimated delivery time
+
+Download is instant after payment. Setup on your own machine is about 2 minutes: copy the example config and run `bash run_all.sh --config config.conf`. A custom setup service, if you order one, takes 1–2 business days.
+
+付款后立即下载。自行部署大约 2 分钟：复制示例配置并运行检查。如果需要代为部署，定制服务为 1–2 个工作日。
 
 ### Requirements
 
@@ -83,7 +90,7 @@ make demo
 
 演示会启动 `debian:stable-slim`，在容器里安装 `procps`，然后对容器自身做磁盘和内存检查。
 
-### Deliverables / 交付物清单
+### 交付物清单 / Deliverables
 
 - `checks/disk.sh`
 - `checks/memory.sh`
@@ -93,11 +100,18 @@ make demo
 - `demo.sh`、`demo/inside.sh`、`Makefile`
 - `tests/run_tests.sh`
 - `screenshots/`
+- `.shellcheckrc`
 - `README.md` 和 `LICENSE`（MIT）
 
 ### Estimated setup time / 预计部署时间
 
 大约 2 分钟。复制示例配置，运行 `bash run_all.sh --config config.conf`。
+
+### 预计交付时间 / Estimated delivery time
+
+付款后立即下载。自行部署大约 2 分钟：复制示例配置，运行 `bash run_all.sh --config config.conf`。如果需要代为部署，定制服务为 1–2 个工作日。
+
+Download is instant after payment. Setup on your own machine is about 2 minutes. A custom setup service takes 1–2 business days.
 
 ### 运行环境
 
@@ -125,6 +139,7 @@ Only in the full version:
 - Markdown report `report/health.md`
 - HTML report `report/health.html`
 - `marketing/` listing and cover images
+- `GUMROAD_LISTING.md`
 - `CHANGELOG.md`
 
 完整版在本预览之外增加上述检查和报告。商品页是 GUMROAD_URL。
@@ -140,4 +155,5 @@ Only in the full version:
 - Markdown 报告 `report/health.md`
 - HTML 报告 `report/health.html`
 - `marketing/` 商品文案和封面图
+- `GUMROAD_LISTING.md`
 - `CHANGELOG.md`
