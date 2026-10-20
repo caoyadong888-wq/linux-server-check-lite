@@ -100,7 +100,7 @@ leak_hits() {
   local hits=$1
   : >"$hits"
   if [ -n "$HOST" ] && [ "$HOST" != "demo-host" ]; then
-    grep -R -a -n -F -- "$HOST" "$ROOT" >>"$hits" 2>/dev/null || true
+    grep -R -a -n -F --exclude-dir=.git -- "$HOST" "$ROOT" >>"$hits" 2>/dev/null || true
   fi
   local ip
   # shellcheck disable=SC2086
@@ -108,7 +108,7 @@ leak_hits() {
     case "$ip" in
       127.*|192.0.2.*) continue ;;
     esac
-    grep -R -a -n -F -- "$ip" "$ROOT" >>"$hits" 2>/dev/null || true
+    grep -R -a -n -F --exclude-dir=.git -- "$ip" "$ROOT" >>"$hits" 2>/dev/null || true
   done
 }
 
