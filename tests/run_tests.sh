@@ -197,7 +197,7 @@ else
 fi
 
 if grep -q 'Full version / 完整版' README.md \
-  && grep -q 'GUMROAD_URL' README.md \
+  && grep -q 'https://caoyadong.gumroad.com/l/nqephae' README.md \
   && grep -q 'https://caoyadong.gumroad.com/l/yvmcqj' README.md \
   && grep -q 'checks/services.sh' README.md \
   && grep -q 'checks/cert.sh' README.md \

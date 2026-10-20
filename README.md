@@ -126,7 +126,7 @@ MIT。见 `LICENSE`。
 
 ## Full version / 完整版
 
-The paid pack adds the checks and reports that this preview leaves out. The product page is GUMROAD_URL.
+The paid pack adds the checks and reports that this preview leaves out. The product page is https://caoyadong.gumroad.com/l/nqephae.
 
 It also pairs with the $9 n8n DevOps Automation Pack: https://caoyadong.gumroad.com/l/yvmcqj
 
@@ -142,7 +142,7 @@ Only in the full version:
 - `GUMROAD_LISTING.md`
 - `CHANGELOG.md`
 
-完整版在本预览之外增加上述检查和报告。商品页是 GUMROAD_URL。
+完整版在本预览之外增加上述检查和报告。商品页是 https://caoyadong.gumroad.com/l/nqephae。
 
 另有 9 美元的 n8n DevOps Automation Pack：https://caoyadong.gumroad.com/l/yvmcqj
 
